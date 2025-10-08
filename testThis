@@ -1,0 +1,6 @@
+#   curl -X POST localhost:8080/api/validate_chirp  -H "Content-Type: application/json"  -d '{"body":"Some random text kerfuffle, and sharbert and fornax"}'
+# curl -X POST localhost:8080/api/validate_chirp  -H "Content-Type: application/json"  -d '{"body":"Some random textSome random textSome random textSome random textSome random textSome random textSome random textSome random textSome random text"}'
+postgres://postgres:postgres@localhost:5432/chirpy
+
+goose postgres postgres://postgres:postgres@localhost:5432/chirpy up
+
